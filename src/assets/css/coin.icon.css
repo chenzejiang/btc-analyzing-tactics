@@ -1,0 +1,874 @@
+
+@font-face {
+    font-family:currencies;src:url('../fonts/cb4561b28ca7989d795fa919b9c8924c.ttf') format("truetype")
+}[class*=" currency-"],[class^=currency-] {
+    font-family: currencies!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.currency-ae:before {
+    content: "\E901"
+}
+
+.currency-aeon:before {
+    content: "\E902"
+}
+
+.currency-amp:before {
+    content: "\E903"
+}
+
+.currency-ardr:before {
+    content: "\E904"
+}
+
+.currency-bcc:before {
+    content: "\E905"
+}
+
+.currency-bcn:before {
+    content: "\E906"
+}
+
+.currency-bnt:before {
+    content: "\E907"
+}
+
+.currency-btc:before {
+    content: "\E908"
+}
+
+.currency-cvc:before {
+    content: "\E909"
+}
+
+.currency-dash:before {
+    content: "\E90A"
+}
+
+.currency-decent:before {
+    content: "\E90B"
+}
+
+.currency-dgd:before {
+    content: "\E90C"
+}
+
+.currency-doge:before {
+    content: "\E90D"
+}
+
+.currency-dsh:before {
+    content: "\E90E"
+}
+
+.currency-edg:before {
+    content: "\E90F"
+}
+
+.currency-eos:before {
+    content: "\E910"
+}
+
+.currency-etc:before {
+    content: "\E911"
+}
+
+.currency-eth:before {
+    content: "\E912"
+}
+
+.currency-exp:before {
+    content: "\E913"
+}
+
+.currency-fcn:before {
+    content: "\E914"
+}
+
+.currency-fct:before {
+    content: "\E915"
+}
+
+.currency-game:before {
+    content: "\E916"
+}
+
+.currency-gbg:before {
+    content: "\E917"
+}
+
+.currency-gbyte:before {
+    content: "\E918"
+}
+
+.currency-gno:before {
+    content: "\E919"
+}
+
+.currency-gnt:before {
+    content: "\E91A"
+}
+
+.currency-golos:before {
+    content: "\E91B"
+}
+
+.currency-gulden:before {
+    content: "\E91C"
+}
+
+.currency-gup:before {
+    content: "\E91D"
+}
+
+.currency-lbry:before {
+    content: "\E91E"
+}
+
+.currency-lsk:before {
+    content: "\E91F"
+}
+
+.currency-ltc:before {
+    content: "\E920"
+}
+
+.currency-maid:before {
+    content: "\E921"
+}
+
+.currency-mcn:before {
+    content: "\E922"
+}
+
+.currency-mln:before {
+    content: "\E923"
+}
+
+.currency-nav:before {
+    content: "\E924"
+}
+
+.currency-nbt:before {
+    content: "\E925"
+}
+
+.currency-nxt:before {
+    content: "\E926"
+}
+
+.currency-pivx:before {
+    content: "\E927"
+}
+
+.currency-pot:before {
+    content: "\E928"
+}
+
+.currency-qcn:before {
+    content: "\E929"
+}
+
+.currency-rads:before {
+    content: "\E92A"
+}
+
+.currency-rep:before {
+    content: "\E92B"
+}
+
+.currency-sngls:before {
+    content: "\E92C"
+}
+
+.currency-snt:before {
+    content: "\E932D"
+}
+
+.currency-spt:before {
+    content: "\E92E"
+}
+
+.currency-steem:before {
+    content: "\E92F"
+}
+
+.currency-stratis:before {
+    content: "\E930"
+}
+
+.currency-swt:before {
+    content: "\E931"
+}
+
+.currency-time:before {
+    content: "\E932"
+}
+
+.currency-trst:before {
+    content: "\E933"
+}
+
+.currency-usdt:before {
+    content: "\E934"
+}
+
+.currency-wawes:before {
+    content: "\E935"
+}
+
+.currency-xaur:before {
+    content: "\E936"
+}
+
+.currency-xdn:before {
+    content: "\E937"
+}
+
+.currency-xem:before {
+    content: "\E938"
+}
+
+.currency-xmr:before {
+    content: "\E939"
+}
+
+.currency-xrp:before {
+    content: "\E93A"
+}
+
+.currency-zcash:before {
+    content: "\E93B"
+}
+
+.currency-ptoy:before {
+    content: "\E93C"
+}
+
+.currency-1st:before {
+    content: "\E93D"
+}
+
+.currency-ant:before {
+    content: "\E93E"
+}
+
+.currency-bat:before {
+    content: "\E93F"
+}
+
+.currency-bcdn:before {
+    content: "\E940"
+}
+
+.currency-bet:before {
+    content: "\E941"
+}
+
+.currency-bth:before {
+    content: "\E942"
+}
+
+.currency-cfi:before {
+    content: "\E943"
+}
+
+.currency-dar:before {
+    content: "\E944"
+}
+
+.currency-dcr:before {
+    content: "\E945"
+}
+
+.currency-dice:before {
+    content: "\E946"
+}
+
+.currency-drp:before {
+    content: "\E947"
+}
+
+.currency-hmq:before {
+    content: "\E948"
+}
+
+.currency-icn:before {
+    content: "\E949"
+}
+
+.currency-lun:before {
+    content: "\E94A"
+}
+
+.currency-mcap:before {
+    content: "\E94B"
+}
+
+.currency-mgo:before {
+    content: "\E94C"
+}
+
+.currency-ndc:before {
+    content: "\E94D"
+}
+
+.currency-nxc:before {
+    content: "\E94E"
+}
+
+.currency-pay:before {
+    content: "\E94F"
+}
+
+.currency-qtum:before,.currency-usnbt:before {
+    content: "\E950"
+}
+
+.currency-rlc:before {
+    content: "\E951"
+}
+
+.currency-storj:before {
+    content: "\E952"
+}
+
+.currency-str:before,.currency-xlm:before {
+    content: "\E953"
+}
+
+.currency-sys:before {
+    content: "\E954"
+}
+
+.currency-vrs:before {
+    content: "\E955"
+}
+
+.currency-vsl:before {
+    content: "\E956"
+}
+
+.currency-waves:before {
+    content: "\E957"
+}
+
+.currency-wings:before {
+    content: "\E958"
+}
+
+.currency-pot2:before {
+    content: "\E959"
+}
+
+.currency-adx:before {
+    content: "\E95A"
+}
+
+.currency-bqx:before {
+    content: "\E95B"
+}
+
+.currency-dent:before {
+    content: "\E95C"
+}
+
+.currency-dnt:before {
+    content: "\E95D"
+}
+
+.currency-fyn:before {
+    content: "\E95E"
+}
+
+.currency-ixt:before {
+    content: "\E95F"
+}
+
+.currency-mne:before {
+    content: "\E960"
+}
+
+.currency-msp:before {
+    content: "\E961"
+}
+
+.currency-neo:before {
+    content: "\E962"
+}
+
+.currency-net:before {
+    content: "\E963"
+}
+
+.currency-oax:before {
+    content: "\E964"
+}
+
+.currency-omg:before {
+    content: "\E965"
+}
+
+.currency-plbt:before {
+    content: "\E966"
+}
+
+.currency-plr:before {
+    content: "\E967"
+}
+
+.currency-plu:before {
+    content: "\E968"
+}
+
+.currency-qau:before {
+    content: "\E969"
+}
+
+.currency-san:before {
+    content: "\E96A"
+}
+
+.currency-snc:before {
+    content: "\E96B"
+}
+
+.currency-stx:before {
+    content: "\E96C"
+}
+
+.currency-taas:before {
+    content: "\E96D"
+}
+
+.currency-tix:before {
+    content: "\E96E"
+}
+
+.currency-tkn:before {
+    content: "\E96F"
+}
+
+.currency-uet:before {
+    content: "\E970"
+}
+
+.currency-nlg:before {
+    content: "\E971"
+}
+
+.currency-lbc:before {
+    content: "\E972"
+}
+
+.currency-sbd:before {
+    content: "\E973"
+}
+
+.currency-strat:before {
+    content: "\E974"
+}
+
+.currency-zec:before {
+    content: "\E975"
+}
+
+.currency-zrx:before {
+    content: "\E976"
+}
+
+.currency-mtl:before {
+    content: "\E977"
+}
+
+.currency-mco:before {
+    content: "\E978"
+}
+
+.currency-btg:before {
+    content: "\E979"
+}
+
+.currency-dgb:before {
+    content: "\E980"
+}
+
+.currency-myst:before {
+    content: "\E981"
+}
+
+.currency-nmr:before {
+    content: "\E982"
+}
+
+.currency-salt:before {
+    content: "\E983"
+}
+
+.currency-xvg:before {
+    content: "\E984A"
+}
+
+.currency-fun:before {
+    content: "\E985"
+}
+
+.currency-bch:before {
+    content: "\E986"
+}
+
+.currency-free:before {
+    content: "\E987A"
+}
+
+.currency-powr:before {
+    content: "\E988"
+}
+
+.currency-ada:before {
+    content: "\E989"
+}
+
+.currency-eur:before {
+    content: "\E92D"
+}
+
+.currency-dct:before {
+    content: "\E97C"
+}
+
+.currency-ignis:before {
+    content: "\E97D"
+}
+
+.currency-vib:before {
+    content: "\E97A"
+}
+
+.currency-zcl:before {
+    content: "\E97E"
+}
+
+.currency-ctr:before {
+    content: "\E97B"
+}
+
+.currency-eng:before {
+    content: "\E98B"
+}
+
+.currency-dcn:before {
+    content: "\E98A"
+}
+
+.currency-ngc:before {
+    content: "\E98C"
+}
+
+.currency-srn:before {
+    content: "\E97F"
+}
+
+.currency-trx:before {
+    content: "\E984"
+}
+
+.currency-wax:before {
+    content: "\E987"
+}
+
+.currency-rcn:before {
+    content: "\E997"
+}
+
+.currency-kmd:before {
+    content: "\E99B"
+}
+
+.currency-ukg:before {
+    content: "\E98E"
+}
+
+.currency-up:before {
+    content: "\E999"
+}
+
+.currency-lrc:before {
+    content: "\E99C"
+}
+
+.currency-vee:before {
+    content: "\E996"
+}
+
+.currency-rdd:before {
+    content: "\E998"
+}
+
+.currency-bcpt:before {
+    content: "\E993"
+}
+
+.currency-adt:before {
+    content: "\E99A"
+}
+
+.currency-qrl:before {
+    content: "\E99F"
+}
+
+.currency-sc:before {
+    content: "\E9A0"
+}
+
+.currency-dyn:before {
+    content: "\E98E"
+}
+
+.currency-ark:before {
+    content: "\E98F"
+}
+
+.currency-iop:before {
+    content: "\E992"
+}
+
+.currency-sls:before {
+    content: "\E9A1"
+}
+
+.currency-noah:before {
+    content: "\E987A"
+}
+
+.currency-vtc:before {
+    content: "\E9A3"
+}
+
+.currency-zen:before {
+    content: "\E9A5"
+}
+
+.currency-brd:before {
+    content: "\E990"
+}
+
+.currency-mer:before {
+    content: "\E99D"
+}
+
+.currency-mana:before {
+    content: "\E995"
+}
+
+.currency-part:before {
+    content: "\E99E"
+}
+
+.currency-xel:before {
+    content: "\E9A4"
+}
+
+.currency-iota:before {
+    content: "\E994"
+}
+
+.currency-ven:before {
+    content: "\E9A2"
+}
+
+.currency-tron:before {
+    content: "\E987A"
+}
+
+.currency-snm:before {
+    content: "\E9A7"
+}
+
+.currency-synx:before {
+    content: "\E991"
+}
+
+.currency-bnb:before {
+    content: "\E9B1"
+}
+
+.currency-cnd:before {
+    content: "\E9AF"
+}
+
+.currency-xzc:before {
+    content: "\E9A6"
+}
+
+.currency-shift:before {
+    content: "\E987A"
+}
+
+.currency-ebst:before {
+    content: "\E9A8"
+}
+
+.currency-meme:before {
+    content: "\E987A"
+}
+
+.currency-bsd:before {
+    content: "\E9B0"
+}
+
+.currency-aion:before {
+    content: "\E9B6"
+}
+
+.currency-flo:before {
+    content: "\E9AC"
+}
+
+.currency-rvr:before {
+    content: "\E9AA"
+}
+
+.currency-emc:before {
+    content: "\E9AB"
+}
+
+.currency-mue:before {
+    content: "\E9C6"
+}
+
+.currency-tx:before {
+    content: "\E9CF"
+}
+
+.currency-ok:before {
+    content: "\E9CD"
+}
+
+.currency-lmc:before {
+    content: "\E9A9"
+}
+
+.currency-nano:before {
+    content: "\E9B5"
+}
+
+.currency-arn:before {
+    content: "\E9B4"
+}
+
+.currency-tusd:before {
+    content: "\E9CE"
+}
+
+.currency-wtc:before {
+    content: "\E9B3"
+}
+
+.currency-elf:before {
+    content: "\E9B2"
+}
+
+.currency-iost:before {
+    content: "\E9AE"
+}
+
+.currency-zil:before {
+    content: "\E9AD"
+}
+
+.currency-abyss:before {
+    content: "\E987A"
+}
+
+.currency-zap:before {
+    content: "\E9D6"
+}
+
+.currency-smart:before {
+    content: "\E9B8"
+}
+
+.currency-r:before {
+    content: "\E9B9"
+}
+
+.currency-ppt:before {
+    content: "\E9BA"
+}
+
+.currency-poly:before {
+    content: "\E9BB"
+}
+
+.currency-nexo:before {
+    content: "\E9BC"
+}
+
+.currency-mkr:before {
+    content: "\E9BD"
+}
+
+.currency-link:before {
+    content: "\E9BE"
+}
+
+.currency-knc:before {
+    content: "\E9BF"
+}
+
+.currency-hsr:before {
+    content: "\E9C0"
+}
+
+.currency-grs:before {
+    content: "\E9C1"
+}
+
+.currency-enj:before {
+    content: "\E9C2"
+}
+
+.currency-dai:before {
+    content: "\E9C3"
+}
+
+.currency-mith:before {
+    content: "\E9C4"
+}
+
+.currency-ont:before {
+    content: "\E9C5"
+}
+
+.currency-skin:before {
+    content: "\E9C7"
+}
+
+.currency-tel:before {
+    content: "\E9CA"
+}
+
+.currency-usd:before {
+    content: "\E9CB"
+}
+
+.currency-bkx:before {
+    content: "\E9CC"
+}
+
+.currency-betr:before {
+    content: "\E9B7"
+}
+
+.currency-gas:before {
+    content: "\E962"
+}
