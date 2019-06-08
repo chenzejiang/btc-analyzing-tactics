@@ -66,3 +66,21 @@ export function toThousandFilter(num) {
 export function uppercaseFirst(string) {
   return string.charAt(0).toUpperCase() + string.slice(1)
 }
+
+/**
+ * 100 => +100
+ * @param {number} num
+ */
+export function addSymbol(num) {
+  if (isNaN(Number(num))) return num
+  const addFlag = num > 0 ? '+' : ''
+  return addFlag + num
+}
+
+/**
+ * 100 => 100%
+ * @param {number} num
+ */
+export function perSymbol(num) {
+  return num + '%'
+}
