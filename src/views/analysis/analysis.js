@@ -1,8 +1,8 @@
 import { dealList, historyList, ticker } from '@/api/analys'
 import { numberToFixed } from '@/utils/common'
 const { coinNameArr } = require('../../utils/coin-name')
-import Chart from '@/components/Charts/Candlestick'
-
+import Candlestick from '@/components/Charts/Candlestick'
+import WaterBall from '@/components/Charts/WaterBall'
 export default {
   name: 'Analysis',
   data() {
@@ -16,7 +16,10 @@ export default {
       highData: []
     }
   },
-  components: { Chart },
+  components: {
+    Candlestick,
+    WaterBall
+  },
   async mounted() {
     // await this.getNowData()
     // await this.getSelectData()

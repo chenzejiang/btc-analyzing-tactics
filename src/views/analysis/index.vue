@@ -11,9 +11,29 @@
         <span style="float: right; color: #8492a6; font-size: 13px">{{ item.name }}</span>
       </el-option>
     </el-select>
-    <div class="chart-container">
-      <chart height="100%" width="100%" />
+    <div class="chart-candlestick">
+      <Candlestick id="CandlestickChart" height="100%" width="100%" />
     </div>
+
+    <el-row class="chart-waterball">
+      <el-col :span="6">
+        <WaterBall id="WaterBallChartLeft" title="买入" height="100%" width="100%" />
+      </el-col>
+      <el-col :span="6">
+        <div class="grid-content bg-purple-light">
+          123
+        </div>
+      </el-col>
+      <el-col :span="6">
+        <div class="grid-content bg-purple">
+          123
+        </div>
+      </el-col>
+      <el-col :span="6">
+        <WaterBall id="WaterBallChartRight" title="卖出" height="100%" width="100%" />
+      </el-col>
+    </el-row>
+
     <el-row type="flex" class="row-bg" justify="end">
       <el-col :span="24"><div class="grid-content" />
         <el-table
@@ -85,10 +105,23 @@
 .green{
   color: green;
 }
-.chart-container{
+.chart-candlestick{
   position: relative;
   width: 100%;
   height: 50vh;
+}
+.chart-waterball{
+  position: relative;
+  background: #1b2735;
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  .chart-waterball-left{
+    flex: 1
+  }
+  .chart-waterball-right{
+    flex: 1
+  }
 }
 .tablePriceBox{
   .price{
